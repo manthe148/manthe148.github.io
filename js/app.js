@@ -1,11 +1,36 @@
+/*
+*
+*	TABLE OF CONTENTS:
+*
+*/
+
+
+/*Var, Const, and Let*/
+const nav = document.querySelector('.nav');
+const row = document.querySelector('.row');
+const mission = document.querySelector('.mission');
+const down = document.getElementById('down');
+
+
 /* Open */
 function openNav() {
-    document.getElementById('drawer').style.width = "100%";
-    document.querySelector('.justify').style.display = "none";
+    nav.style.display = "block";
+    row.style.display = "none";
+    mission.style.display = "none";
 }
 
 /* Close */
 function closeNav() {
-    document.getElementById("drawer").style.width = "0%";
-    document.querySelector('.justify').style.display = "block";
+    nav.style.display = "none";
+    row.style.display = "block";
+    mission.style.display = "block";
 }
+
+function getIt() {
+	var down = document.querySelector('#down');
+
+	document.getElementById('about').scrollIntoView({behavior: "smooth",block: "start", inline: "start"});
+
+}
+
+
