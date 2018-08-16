@@ -1,0 +1,87 @@
+@media only screen{
+html,
+main,
+body{
+    margin-top: 15px;
+}
+
+/*this is to set the default font*/
+.font,
+.heading,
+#name,
+{
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+/*header!!*/
+.header{
+    border-bottom: 3px solid grey;
+    border-width: 100%;
+    overflow: hidden;
+    box-shadow: 5px 5px 6px #aaaaaa;
+
+}
+.indent{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+.links{
+	padding-bottom: 10px;
+}
+.heading{
+
+	  border-style: groove;
+	  /*border-bottom: 1px;*/
+}
+#flex{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+}
+#logo{
+	float: left;
+	width: 100px;
+	height: 100px;
+    border-radius: 15px 15px 15px 15px;
+    padding-right: 18%;
+}
+#name{
+	display: flex;
+	flex-direction: row;
+    font-size: 50px; 
+    margin: 23px 0px 10px 10px;
+    padding-bottom: 10px;
+    border-bottom-style: double;
+}
+#title{
+    text-align: center;
+ 	margin-left: 150px;
+    font-size: 25px;
+}
+
+/*this is for the picture, source is this coding*/
+#me{
+	margin: 10px 0px 10px 0px;
+   	width: 100%;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+ }
+#project1{
+	width: 100%;
+	height: auto;
+}
+#git{
+	margin-right: 25%;
+}
+
+/*this is for the footer*/
+footer{
+	text-align: center;
+}
+#link{
+	margin-left: 25%;
+}
+#connect{
+	padding-bottom: 150px;
+}
+}

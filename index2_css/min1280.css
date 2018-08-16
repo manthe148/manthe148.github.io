@@ -1,0 +1,123 @@
+@media screen{
+html,
+main,
+body{
+    margin-top: 15px;
+    height: 100%;
+}
+footer{
+	margin-top: 30px;
+	padding-top: 30px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.font{
+	font-family: 'Do Hyeon', sans-serif;
+}
+.header{
+    border-bottom: 3px solid grey;
+    border-width: 100%;
+    overflow: hidden;
+    box-shadow: 5px 5px 6px #aaaaaa;
+
+}
+.indent{
+    padding: 10px;
+    text-align: center;
+}
+.links{
+	margin-top: 30px;
+	width: 100%;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	border: 5px;
+	border-style: groove;
+}
+.space{
+	margin-top: 15px;
+	margin-bottom: 15;
+}
+.heading{
+		  font-family: 'Do Hyeon', sans-serif;
+	  border-style: groove;
+	  /*border-bottom: 1px;*/
+}
+.column{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+
+}
+.nav,
+.buttons{
+	padding: 48px;
+}
+#logo{
+	float: left;
+	width: 150px;
+	height: 150px;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+#flex{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+}
+#hello{
+	float: right;
+	display: flex;
+	flex-direction: column;
+}
+#name{
+	display: flex;
+	flex-direction: row;
+	margin-left: 65%;
+    margin-bottom: 0px;
+    width: 300px;
+    height: 36px;
+	font-family: 'Do Hyeon', sans-serif;
+    border-bottom-style: double;
+}
+#title{
+    text-align: right;
+    margin-top: 0px;
+ 
+}
+#me{
+	  margin: 10px 0px 10px 0px;
+   	  width: 100%;
+      height: auto;
+      border-radius: 15px 15px 15px 15px;
+ }
+#pixel-left{
+	float: left;
+	width: 33%;
+	height: 319px;
+}
+#pixel{
+	width: 100%;
+	height: auto;
+	
+}
+#animal{
+	float: right;
+	width: 33%;
+	height: auto;
+}
+#git{
+	margin-left: 25%;
+	padding-right: 150px;
+}
+#link{
+	padding-left: 150px;
+}
+
+}

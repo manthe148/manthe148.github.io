@@ -1,0 +1,74 @@
+@media only screen{
+html, main, body{
+    margin-top: 15px;
+}
+footer{
+	text-align: center;
+	border-style: groove;
+	padding-top: 25px;
+}
+.font{
+	font-family: 'Do Hyeon', sans-serif;
+}
+.header{
+    border-bottom: 3px solid grey;
+    border-width: 100%;
+    overflow: hidden;
+    box-shadow: 5px 5px 6px #aaaaaa;
+
+}
+.indent{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+.links{
+	padding-bottom: 10px;
+}
+#logo{
+	float: left;
+	width: 100px;
+	height: 100px;
+    border-radius: 15px 15px 15px 15px;
+    padding-right: 18%;
+}
+#flex{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+}
+#name{
+	display: flex;
+	flex-direction: row;
+    font-size: 50px;
+    font-family: 'Do Hyeon', sans-serif;
+    margin: 23px 0px 10px 10px;
+    padding-bottom: 10px;
+    border-bottom-style: double;
+}
+#title{
+    text-align: center;
+ 	margin-left: 150px;
+    font-size: 25px;
+}
+#me{
+	margin: 10px 0px 10px 0px;
+   	width: 100%;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+ }
+#projects{
+	font-family: 'Do Hyeon', sans-serif;
+	border-style: groove;
+	font-size: 75px;
+}
+#project1{
+	width: 100%;
+	height: auto;
+}
+#git{
+	margin-right: 25%;
+}
+#link{
+	margin-left: 25%;
+}
+}

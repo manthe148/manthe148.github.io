@@ -1,0 +1,88 @@
+@media screen{
+html,
+main,
+body{
+    margin-top: 15px;
+}
+footer{
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.font,
+#name,
+{
+	font-family: 'Do Hyeon', sans-serif;
+}
+.header{
+    border-bottom: 3px solid grey;
+    border-width: 100%;
+    overflow: hidden;
+    box-shadow: 5px 5px 6px #aaaaaa;
+
+}
+.indent{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+.links{
+	padding-bottom: 10px;
+}
+.column{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+
+}
+#logo{
+	float: left;
+	width: 50px;
+	height: 50px;
+    border-radius: 15px 15px 15px 15px;
+}
+#grid{
+	display: inline-grid;
+	text-align: center;
+	grid-template-rows: repeat(6,1fr);
+	grid-template-rows: 75%;
+}
+#name{
+	display: grid;
+	width: 100%;
+    -moz-transform: rotate(90deg);
+    margin: 1px 0px 10px 10px;
+    border-bottom-style: double;
+}
+#title{
+    text-align: center;
+    margin-top: 5px;
+    
+}
+#me{
+	  margin: 10px 0px 10px 0px;
+   	  width: 100%;
+      height: auto;
+      border-radius: 15px 15px 15px 15px;
+ }
+
+#project1{
+	width: 100%;
+	height: auto;
+}
+#git{
+	padding-right: 48px;
+}
+#link{
+	padding-left: 48px;
+}
+.nav{
+	text-align: center;
+}
+.buttons{
+	grid-row: 
+}

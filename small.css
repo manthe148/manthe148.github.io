@@ -1,0 +1,169 @@
+
+html{
+	min-height: 100%;
+}
+body{
+	font-family: sans-serif;
+/*	font-size: 28px;
+*/	background-image: url(https://i.imgur.com/ymQ4nbKh.jpg);
+	background-repeat: no-repeat, repeat-y;
+	background-attachment: fixed, scroll;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+
+}
+
+.gradient{
+	background: linear-gradient( to left, #121DB3, #04094A, #000000) fixed;
+	
+  background-attachment: scroll;
+	background-repeat: repeat-y;
+	background-size: 100%;
+	opacity: .75;
+	z-index: -1;
+	width: auto;
+	/*height: 100%;*/
+	padding-bottom: 100%;
+
+}
+.overlay{
+	 opacity: .9;
+    position: fixed;
+    z-index: -1;
+    padding-bottom: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    
+}
+/*
+*	HEADER
+*/
+#justify{
+  
+  position: fixed;
+  right: 35px;
+  top: 38.86px;
+	z-index: 1;
+  color: #000;
+  float: right; 
+  font-weight: bold
+
+}
+#justify:hover{
+  color: rgb(0,0,0);
+  cursor: pointer;
+
+ }
+ #picture{
+  float: left;
+  left: 35px;
+  border-radius: 25%;
+  height: 73px;
+ }
+ #title_one{
+  color: white;
+  margin-bottom: 0px;
+ }
+ #title_two{
+  color: white;
+  margin-top: 0px;
+ }
+.nav {
+  top: 0;
+  visibility: visible;
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed; 
+  z-index: 1;
+  background-color: rgba(0,0,0,0.4); 
+  overflow: hidden;
+  transition: .3s;
+}
+.nav__item {
+  display: unset !important;
+  color: rgb(225,225,225);
+  padding: 48px;
+  line-height: 50px;
+}
+#padding{
+	margin: 48px;
+}
+.nav__list {
+  color: rgb(000,000,000);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  top: 0px;
+  bottom:0px;
+  left: 0px;
+  right: 0px;
+}
+
+/*#closebtn{
+  display: unset !important;
+  font-size: 100px;
+  padding: 15px 15px 15px 15px;
+  float: right;
+}*/
+#closebtn:hover{
+  cursor: pointer;
+}
+.hide{
+  display: unset !important;
+  float: right;
+}
+
+.nav__item{
+  display: unset !important;
+  color: rgb(225,225,225);
+  height: 5px;
+  display: flex;
+  text-align: center;
+  font-size: 48px;
+  padding: 48px;
+}
+a:hover{
+  color: green;
+}
+
+
+.top-news{
+  display: unset !important;
+  height: 175px;
+}
+.mission{
+  height: 718px;
+}
+.borderB{
+  border-bottom: 2px solid white;
+
+}
+.hr{
+  border-bottom: 2px solid black;
+}
+.down{
+  margin-top: 48px;
+}
+.far,
+.fa-hand-point-down{
+  font-size: 48px;
+ }
+ .far,
+.fa-hand-point-down:hover{
+  cursor: pointer;
+}
+
+.container{
+  padding: 5px;
+}
+.hr{
+  border-bottom: 2px solid white;
+}
+.fullPage{
+  height: 100vh;
+  width: auto;
+}
